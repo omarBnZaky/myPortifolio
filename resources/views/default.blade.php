@@ -9,9 +9,39 @@
 	<link rel="stylesheet" href="{{asset('css/fixed.css')}}">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="">
+
+<!--start Home Section -->
+@include('inc.home')
+<!--end Home Section -->
 
 
+<!-- start Text Section -->
+@include('inc.text')
+<!--end Text Section -->
+
+
+
+<!-- start Features Section -->
+@include('inc.features')
+<!--end Features Section -->
+
+
+<!-- start Resources Section -->
+@include('inc.resources')
+<!--end Resources Section -->
+
+
+
+<!-- start Clients Section -->
+@include('inc.clients')
+<!--end Clients Section -->
+
+
+
+<!-- start contact Section -->
+@include('inc.contact')
+<!--end contact Section -->
 
 <!--- Script Source Files -->
 <script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
