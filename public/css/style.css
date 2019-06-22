@@ -1,9 +1,260 @@
 
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700');
+
+
+body{
+
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color:#505962;
+}
+
+
+/* Navigation */
+.navbar{
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+.navbar-brand img{
+  border: 3px solid white;
+}
+
+
+
+.navbar-nav li{
+  padding-left: 20px;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #1ebba3;
+}
+
+/*--landing page--*/
+/*
+.home-inner{
+  background-image: url(/img/connection-data-desk-1181675.jpg);
+}
+*/
+
+.caption{
+  width:100%;
+  max-width: 100%;
+  position: absolute;
+  top:38%;
+  color: white;
+}
+
+.caption h1{
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing:.3rem;
+  text-shadow: .1rem .1rem .8rem white;
+}
+
+ #videoBG{
+  position:fixed;
+  z-index: -1;
+  width:100%;     
+  height: auto;
+}
+@media (min-aspect-ratio: 16/9) {
+  #videoBG {
+      width:100%;
+      height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #videoBG { 
+      width:auto;
+      height: 100%;
+  }
+}
+
+#aboutme .fixed{
+ background:  url(/img/bnzaky.jpeg);
+ background-size: cover;
+  z-index: -1;
+  padding:7rem 2rem;
+}
+
+#contact .fixed{
+  
+  background-image: url(/img/arch.jpg);
+  z-index: -1;
+  padding:7rem 2rem;
+}
+
+/*-- start blogs--*/
+#blogs .card{
+  color:black;
+}
+#blogs .fixed{
+   
+  background-image: url(/img/blog.jpeg);
+  z-index: -1;
+  padding:7rem 2rem;
+}
+/*--end blogs--*/
+.oacity{
+  background: rgba(0, 0, 0, 0.6);
+  padding:100px;
+}
+
+.about{
+  background: rgba(0, 0, 0, 0.6)!important;
+  color:white;
+}
+.caption h3{
+  text-shadow: .1rem .1rem .8rem black;
+}
+
+.caption .btn{
+  text-shadow: .1rem .1rem .8rem black;
+
+}
+
+.jumbotron{
+  margin-bottom: 0px!important;
+}
+
+
+/*--shapes --*/
+#hexagon {
+      width: 200px;
+      height: 100px;
+      background: rgb(56, 145, 223);
+      position: relative;
+      margin:85px auto;
+      color: white;
+    }
+    #hexagon:before {
+      content: "";
+      position: absolute;
+      top: -25px;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      border-bottom: 25px solid rgb(56, 145, 223);
+    }
+    #hexagon:after {
+      content: "";
+      position: absolute;
+      bottom: -25px;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      border-top: 25px solid rgb(56, 145, 223);
+    }
+
+
+/*--skills section--*/
+.fixed{
+  background-image: url(/img/connection-data-desk-1181675.jpg);
+  z-index: -1;
+  padding:7rem 2rem;
+}
+.fa-html5{
+  color: #1ebba3;
+}
+.fa-css3{
+  color: #1e5fbb;
+}
+.fa-bold{
+  color: #8735d3;
+}
+.fa-js{
+  color:yellow;
+}
+
+.fa-vuejs{
+  color:green;
+}
+
+
+.fa-php{
+  color:#8735d3;
+}
+
+.fa-laravel{
+  color:rgb(255, 38, 0);
+}
+
+.dark{
+  background-color: rgba(0, 0, 0, 0.75);
+  color:white;
+}
+/*-- end skills section--*/
+
+
+/*--clients section--*/
+
+    .clients img{
+      width:100%;
+      border-radius: 50%;
+    }
+    blockquote .svg-inline--fa{
+      color: #1ebba3;
+      margin:1rem;
+    }
+
+    .clients-hr{
+      border-top:.05rwm solid #1ebba3;
+    }
+
+/*-- end clients section--*/
+
+/*--Start contact--*/
+#contact .twitter{
+  color:rgb(56, 145, 223);
+}
+
+#contact .facebook{
+  color: #1e5fbb;
+}
+
+#contact .github{
+  color:white;
+}
+
+.fa-map-marker{
+  color:rgb(255, 38, 0);
+
+}
+
+
+.fa-phone-square{
+  color:green;
+}
+
+.fa-envelope{
+  color:orangered;
+}
+/*--end contact--/
 
 
 
 
 
+
+
+
+
+
+
+/*--end landing page--*/
+
+
+/* End Navigation */
 
 /*============ BOOTSTRAP BREAK POINTS:
 
